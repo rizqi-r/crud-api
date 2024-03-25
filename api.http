@@ -1,0 +1,33 @@
+## Endpoint Listing all resources - GET /v1/movies
+# GET http://localhost:3000/v1/movies
+# Content-Type: application/json
+
+## Endpoint Getting a resource - GET /v1/movies/:id
+# GET http://localhost:3000/v1/movies/1
+# Content-Type: application/json
+
+## Endpoint Creating a resource - POST /v1/movies
+# POST http://localhost:3000/v1/movies
+# Content-Type: application/json
+
+# {
+#     "title": "clean vote",
+#     "director": "rizqi",
+#     "release_year": 2023,
+#     "is_available": false
+# }
+
+## Endpoint Updating a resource - PUT /v1/movies/:id
+# PUT http://localhost:3000/v1/movies/9
+# Content-Type: application/json
+
+# {
+#     "title": "clean vote",
+#     "director": "rizqi",
+#     "release_year": 2024,
+#     "is_available": true
+# }
+
+## Endpoint Deleting a resource - DELETE /v1/movies/:id
+# DELETE http://localhost:3000/v1/movies/5
+# Content-Type: application/json
